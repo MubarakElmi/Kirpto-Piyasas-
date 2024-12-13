@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0e0e0e;
+    min-height: 100vh;
+    position: relative;
+    font-family: "josefin sans";
+}
+
+body ::before {
+    position: absolute;
+    content: "";
+    height: 15%;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 1rem 0;
+
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container nav .logo {
+    display: flex;
+    color: #212a3c;
+    font-size: 24px !important;
+    cursor: pointer;
+
+
+
+}
+
+.container nav h4 {
+    margin-left: 1px;
+    margin-top: 6px;
+
+}
+
+
+
+
+
+
+.logof {
+    width: 90px;
+    max-width: none;
+    margin-top: -20px;
+}
+
+.container .nav-link {
+    display: flex;
+}
+
+.container .nav-link li {
+    list-style: none;
+    margin: 0 0.5rem;
+}
+
+.container ul li a {
+    color: #212a3c;
+    font-size: 17px;
+    padding: 0.7rem 1rem;
+    display: block;
+    border-radius: 10px;
+    border-radius: 4px;
+}
+
+.container ul li a:hover,
+.container ul li a.active {
+    background-color: #c8c8c8;
+}
+
+.content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.content h2 {
+    font-size: 5rem;
+    color: #fff;
+}
+
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+
+}
+
+.hero-section {
+    height: 600px;
+    padding-top: 160px;
+    display: block;
+    /*background-image: url("../img/4.png");*/
+    background-size: cover;
+    background-color: #000000;
+    background-position: right top;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.hero-text {
+    padding-top: 100px;
+}
+
+.hero-text h2 {
+    font-size: 45px;
+    margin-bottom: -100px;
+    margin-left: 50px;
+    color: #fdfdfdea;
+}
+
+.hero-text1 h3 {
+    font-size: 25px;
+    margin-top: -150px;
+
+    margin-left: 50px;
+    color: #fdfdfdea;
+}
+
+.hero-text h2 span {
+    color: #a1a5acea;
+}
+
+.hero-section .laptop-image {
+    width: 485px;
+    max-width: none;
+    position: relative;
+    left: 900px;
+    top: -85px;
+    border-radius: 20%;
+    box-shadow: 1px 0px 20px #171717;
+
+
+}
+
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 60px;
+
+    background-color: #000000;
+    color: #ffffff;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 4px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #242323;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #bab7b7;
+    cursor: pointer;
+}
+
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #999;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    /* Space for the icon */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+/* src/components/CryptoDetail.css */
+
+.crypto-detail-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.crypto-detail-container h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #dcdcdc;
+
+}
+
+.time-range-buttons {
+    margin-bottom: 20px;
+}
+
+.time-range-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.time-range-buttons button:hover {
+    background-color: #555;
+}
+
+.time-range-buttons button.active {
+    background-color: #8884d8;
+    /* Change color to indicate active state */
+    color: white;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.chart {
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    color: #fffcfc;
+
+
+}
+
+.pagination {
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button.active {
+    background-color: #0056b3;
+}
+
+.pagination button:hover {
+    background-color: #0056b3;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.News {
+    font-size: 20px;
+    margin-top: 50px;
+
+    margin-left: 50px;
+    color: #fdfdfdea;
+}
+
+/* General styling for the news container */
+.News {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.Ncart {
+    padding: 20px;
+    background-color: #000000;
+}
+
+/* Style the Cards */
+.card {
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 300px;
+}
+
+.footer1 {
+    flex-direction: column;
+
+}
+
+.dex-screener-ui {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1c1c1c;
+    padding: 20px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.sidebar li:hover {
+    color: #1e90ff;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+.filters .btn {
+    margin-right: 10px;
+}
+
+.table-dark {
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+.table-dark th,
+.table-dark td {
+    border-color: #2a2a2a;
+}
+
+.table-dark tr:hover {
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.meme {
+    max-width: 1440px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    margin-left: 174px;
+}
+
+
+.crypto-slider {
+    margin: 20px auto;
+    max-width: 100%;
+    height: 20px;
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: -40px;
+}
+
+.crypto-slide {
+    text-align: center;
+    color: #fefefe;
+}
+
+.crypto-slide img {
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.crypto-slide h4 {
+    margin: 10px 0;
+    font-size: 10px;
+    margin-left: 140px;
+    margin-top: -45px;
+}
+
+.crypto-slide p {
+    margin: 5px 0;
+    font-size: 8px;
+    margin-left: 140px;
+
+}
+
+
+.heatmap-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 20px;
+    background-color: #0e0e0e;
+    margin-top: 100px;
+}
+
+
+
+.heatmap-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.coin-symbol {
+    font-size: 14px;
+}
+
+.coin-price {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.coin-change {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.coin-change.positive {
+    color: #00ff00;
+}
+
+.coin-change.negative {
+    color: #ff0000;
+}
+
+@media (max-width: 768px) {
+
+    .content h2 {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    .icon {
+        display: block;
+    }
+
+    .container .nav-link {
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #ffffff;
+        position: absolute;
+        width: 350px;
+        height: 60vh;
+        top: -900px;
+        right: 0;
+        z-index: 10;
+        transition: all 0.7s;
+    }
+
+    .nav-link.active {
+        top: 3%;
+        transition: all 0.7s ease-in;
+    }
+
+    .hero-section .laptop-image {
+
+        width: 250px;
+        max-width: none;
+        position: relative;
+        left: 390px;
+        top: -180px;
+
+
+    }
+
+    .hero-text {
+        padding-top: 75px;
+    }
+
+    .hero-text h2 {
+        font-size: 35px;
+        margin-bottom: 55px;
+        color: #fdfdfdea;
+    }
+
+    .hero-text1 h3 {
+        font-size: 17px;
+        margin-top: -150px;
+
+        margin-left: 50px;
+        color: #fdfdfdea;
+    }
+
+
+    .crypto-slider {
+        margin: -10px auto;
+        max-width: 100%;
+        height: 20px;
+        padding: 80px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(202, 200, 200, 0.1);
+        margin-top: -60px;
+
+    }
+
+    .crypto-slide {
+        text-align: center;
+        color: #fefefe;
+    }
+
+    .crypto-slide img {
+        margin-bottom: 10px;
+        border-radius: 50%;
+        background: #ffffff;
+        padding: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-left: -84px;
+        width: 35px;
+        height: 35px;
+
+    }
+
+    .crypto-slide h4 {
+        margin: 10px 0;
+        font-size: 10px;
+        margin-left: 25px;
+        margin-top: -45px;
+    }
+
+    .crypto-slide p {
+        margin: 5px 0;
+        font-size: 8px;
+        margin-left: 35px;
+
+    }
+
+
+    table {
+        width: 85%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        margin-left: 55px;
+
+        background-color: #f1f1f1;
+    }
+
+    th,
+    td {
+        padding: 12px;
+        border: 4px solid #ddd;
+        text-align: center;
+    }
+
+    th {
+        background-color: #242323;
+        color: #fff;
+    }
+
+    tr:hover {
+        background-color: #bab7b7;
+        cursor: pointer;
+    }
+
+    .Ncart .col-md-3 {
+        flex: 0 0 calc(50% - 1rem);
+        /* Adjust to 50% on smaller screens */
+        max-width: calc(50% - 1rem);
+        margin-left: 13px;
+
+
+    }
+
+    .card {
+        margin: 10 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .meme {
+        max-width: 1440px;
+        width: 75%;
+        margin: 0 auto;
+        padding: 0 1rem;
+        margin-left: 91px;
+    }
+
+}
