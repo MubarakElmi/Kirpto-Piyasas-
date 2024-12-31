@@ -164,7 +164,7 @@ const CryptoTable = () => {
                     />
                 </div>
 
-                <table>
+                <table className="table1">
                     <thead>
                         <tr>
                             <th>Coin`ler</th>

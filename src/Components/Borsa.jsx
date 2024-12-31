@@ -75,7 +75,7 @@ const Borsa = () => {
 
 
 
-                <div className="container">
+                <div className="crypto-detail-container">
 
                     <h2 className="my-4 text-center text-white">Meme Token Market</h2>
 
@@ -94,8 +94,8 @@ const Borsa = () => {
 
 
                     {/* Table */}
-                    <table >
-                        <thead className="table-dark">
+                    <table>
+                        <thead>
                             <tr>
                                 <th>Meme Coin`ler</th>
                                 <th>Fiyat (TRY)</th>
@@ -107,7 +107,7 @@ const Borsa = () => {
                             {currentCoins.map(coin => (
                                 <tr key={coin.id}>
                                     <td>
-                                        <img src={coin.image} alt={coin.name} width="30" height="30" className="me-2" />
+                                        <img src={coin.image} alt={coin.name} width="30" height="30" />
                                         {coin.name}
                                     </td>
                                     <td>₺{coin.current_price.toLocaleString()}</td>
