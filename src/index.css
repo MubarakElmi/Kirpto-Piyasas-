@@ -702,7 +702,7 @@ tr:hover {
         width: 20%;
         margin: 0 auto;
         padding: 0 1rem;
-        margin-right: 51px;
+        margin-right: 11px;
 
     }
 
@@ -795,14 +795,14 @@ tr:hover {
 
 
     .crypto-slider {
-        margin: -20px auto;
-        max-width: 100%;
+        margin: -10px auto;
+        max-width: 200%;
         height: 10px;
         padding: 85px;
-        border-radius: 10px;
+        border-radius: 70px;
         box-shadow: 0 4px 6px rgba(202, 200, 200, 0.1);
         margin-top: -65px;
-        margin-left: -40px;
+        margin-left: -30px;
 
     }
 
@@ -817,17 +817,17 @@ tr:hover {
         background: #ffffff;
         padding: 5px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        margin-left: -18px;
-        width: 35px;
-        height: 35px;
+        margin-left: -14px;
+        width: 30px;
+        height: 30px;
 
     }
 
     .crypto-slide h4 {
         margin: 10px 0;
-        font-size: 8px;
-        margin-left: 45px;
-        margin-top: -45px;
+        font-size: 6px;
+        margin-left: 43px;
+        margin-top: -35px;
     }
 
     .crypto-slide p {
@@ -843,7 +843,7 @@ tr:hover {
     table {
         border-collapse: collapse;
         margin-top: 20px;
-        margin-left: 15px;
+        margin-left: 18px;
 
         background-color: #090808;
     }
@@ -870,7 +870,7 @@ tr:hover {
         width: 100%;
         max-width: 250px;
         margin: 0 auto;
-        right: 25px;
+        right: 8px;
     }
 
     .search-icon {
@@ -892,7 +892,7 @@ tr:hover {
     }
 
     .crypto-detail-container h2 {
-        margin-right: 60px;
+        margin-right: 18px;
     }
 
     .Ncart .col-md-3 {
