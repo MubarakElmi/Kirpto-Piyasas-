@@ -38,6 +38,8 @@ function Navbar() {
                             <NavItem>
                                 <Link to="blogs">Blogs</Link>
                             </NavItem>
+
+
                         </ul>
                         <div className="icon" onClick={toggleMenu}>
                             <FaBars />

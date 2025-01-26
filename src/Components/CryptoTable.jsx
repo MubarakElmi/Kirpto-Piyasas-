@@ -20,6 +20,8 @@ import {
     Container,
     Col,
 } from "reactstrap";
+import CryptoTrends from "./CryptoTrends";
+
 
 const CryptoTable = () => {
     const [cryptoData, setCryptoData] = useState([]);
@@ -145,6 +147,9 @@ const CryptoTable = () => {
                 </div>
             </section>
 
+            <div className="app-container">
+                <CryptoTrends />
+            </div>
 
 
             {/* Table */}
@@ -248,9 +253,7 @@ const CryptoTable = () => {
                                     Ethereum’un Layer 2 alanı, Nethermind tarafından geliştirilmiş performansa odaklı Surge Rollup’ın tanıtımıyla daha da rekabetçi hale geldi. Surge Rollup, Ethereum’un..
                                 </CardText>
                                 <a href='https://coinotag.com/ethereumun-surge-rollupu-olceklenebilirlik-ve-guvenlik-icin-yeni-olasiliklar/' target="_blank" rel="noopener noreferrer">
-                                    <Button>
-                                        Button
-                                    </Button>
+                                    <Button color="btn btn-outline-secondary">Daha Fazla Oku</Button>
                                 </a>
 
 
@@ -285,9 +288,7 @@ const CryptoTable = () => {
                                     2024 ABD başkanlık seçimlerinin ardından Donald Trump'ın tekrar başkan seçilmesi ve Cumhuriyetçi Parti'nin Seçim sonuçları, Bitcoin ve genel kripto piyasasında ciddi bir yükselişe yol açtı
                                 </CardText>
                                 <a href='https://tr.investing.com/news/cryptocurrency-news/trumpn-secim-zaferi-sonras-kripto-dunyasnda-neler-bekleniyor-3129764' target="_blank" rel="noopener noreferrer">
-                                    <Button>
-                                        Button
-                                    </Button>
+                                    <Button color="btn btn-outline-secondary">Daha Fazla Oku</Button>
                                 </a>
                             </CardBody>
                         </Card>
@@ -319,9 +320,7 @@ const CryptoTable = () => {
                                     Binance TR, kullanıcılarını platformda yapılan önemli değişiklikler konusunda bilgilendirdi. Türkiye’de kripto sektörüne yönelik düzenlemelere uyum sağlama amacıyla
                                 </CardText>
                                 <a href='https://tr.investing.com/news/cryptocurrency-news/binance-trden-alan-ad-ve-sirket-unvan-degisikligi-3129697' target="_blank" rel="noopener noreferrer">
-                                    <Button>
-                                        Button
-                                    </Button>
+                                    <Button color="btn btn-outline-secondary">Daha Fazla Oku</Button>
                                 </a>
                             </CardBody>
                         </Card>
@@ -353,9 +352,7 @@ const CryptoTable = () => {
                                     Kripto yorumcusu ve BitBoy olarak tanınan Ben Armstrong, XRP’nin fiyatının büyük bir yükseliş yaşayabileceğini öne sürüyor. Armstrong’un bu öngörüsü,
                                 </CardText>
                                 <a href='https://koinmedya.com/trumpin-karari-xrp-icin-yeni-bir-donem-baslatabilir/?utm_source=rss&utm_medium=rss&utm_campaign=trumpin-karari-xrp-icin-yeni-bir-donem-baslatabilir' target="_blank" rel="noopener noreferrer">
-                                    <Button>
-                                        Button
-                                    </Button>
+                                    <Button color="btn btn-outline-secondary">Daha Fazla Oku</Button>
                                 </a>
                             </CardBody>
                         </Card>

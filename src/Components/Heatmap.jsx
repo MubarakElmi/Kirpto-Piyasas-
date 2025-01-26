@@ -9,7 +9,7 @@ const Heatmap = () => {
         try {
             const response = await axios.get("https://api.coingecko.com/api/v3/coins/markets", {
                 params: {
-                    vs_currency: "usd",
+                    vs_currency: "try",
                     order: "market_cap_desc",
                     per_page: 100,
                     page: 1,
@@ -53,7 +53,7 @@ const Heatmap = () => {
                             style={{ backgroundColor }}
                         >
                             <span className="coin-symbol">{coin.symbol.toUpperCase()}</span>
-                            <span className="coin-price">{coin.current_price.toFixed(2)} USD</span>
+                            <span className="coin-price">{coin.current_price.toFixed(2)} TRY</span>
                             <span
                                 className={`coin-change ${isPositive ? "positive" : "negative"}`}
                             >

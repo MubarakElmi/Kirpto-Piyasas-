@@ -9,7 +9,7 @@ function Footer() {
                         <Stack>
                             <Image
 
-                                src="src\images\WORLD.png" className="logof"
+                                src="src\images\WORLD.png" className="logof1"
 
                             />
                             <h2>Kirpto Paysasi</h2>
