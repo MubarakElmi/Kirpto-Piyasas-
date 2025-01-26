@@ -932,22 +932,22 @@ tr:hover {
         justify-content: space-evenly;
         background-color: #ffffff;
         position: fixed;
-        width: 250px;
+        width: 230px;
         height: 45vh;
         top: 3%;
         /* Adjust the vertical position */
-        right: -250px;
+        right: -270px;
         /* Start hidden on the left */
         z-index: 10;
         transition: all 0.7s ease-in-out;
         /* Smooth transition for sliding effect */
         margin-top: 40px;
-        border-radius: 10%;
+        border-top-left-radius: 75px;
         box-shadow: 1px 0px 20px #bcbcbc;
     }
 
     .nav-link.active {
-        right: 0;
+        right: -15px;
         /* Slide into view */
         transition: all 0.7s ease-in-out;
         /* Ensure consistent transition */
@@ -1091,10 +1091,18 @@ tr:hover {
         margin-left: 0;
     }
 
+    .Ncart {
+        margin-left: 320px;
+    }
+
+    .News {
+        font-size: 25px;
+    }
+
     .card {
         margin: 10px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        margin-left: -290px;
+        margin-left: -280px;
 
     }
 
@@ -1172,6 +1180,55 @@ tr:hover {
         margin-top: 10px;
         margin-left: -80px;
         margin-bottom: -55px;
+    }
+
+    .crypto-trends-container {
+        display: flex;
+        gap: 30px;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        color: #ffffff;
+        margin-left: 5px;
+
+    }
+
+    .trend-box {
+        width: 45%;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+
+    }
+
+    .trend-box h4 {
+        margin-bottom: 15px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        color: #ffffff;
+
+    }
+
+    .trend-box ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .trend-box li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 10px;
+        padding: 5px 0;
+        border-bottom: 1px solid #f0f0f0;
+    }
+
+    .trend-box li:last-child {
+        border-bottom: none;
     }
 
 
